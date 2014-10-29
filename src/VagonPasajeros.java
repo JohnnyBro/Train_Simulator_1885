@@ -6,9 +6,9 @@ public class VagonPasajeros extends Vagon{
 	final int tipo;
 	boolean vagonLleno = false;
 	
-	public VagonPasajeros(int numeroDeVagon, VagonPasajeros siguiente, int tipo, int pasajeros){
+	public VagonPasajeros(VagonPasajeros anterior,int numeroDeVagon, VagonPasajeros siguiente, int tipo, int pasajeros){
 		
-		super(numeroDeVagon, siguiente);
+		super(anterior, numeroDeVagon, siguiente);
 		this.tipo = tipo;
 	}
 	
