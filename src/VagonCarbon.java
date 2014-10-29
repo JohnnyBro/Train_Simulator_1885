@@ -1,11 +1,11 @@
 
 public class VagonCarbon extends Vagon{
 	
-	int elemento;
+	int numeroDeVagon;
 	VagonCarbon siguiente;
 	
-	public VagonCarbon(int elemento, VagonCarbon siguiente){
-		super(elemento, siguiente);
+	public VagonCarbon(int numeroDeVagon, VagonCarbon siguiente){
+		super(numeroDeVagon, siguiente);
 	}
 
 }

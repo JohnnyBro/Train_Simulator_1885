@@ -1,12 +1,12 @@
 
 public class Vagon {
 
-	int elemento;
+	int numeroDeVagon;
 	Vagon siguiente;
 	
-	public Vagon(int elemento, Vagon siguiente){
+	public Vagon(int numeroDeVagon, Vagon siguiente){
 		
-		this.elemento = elemento;
+		this.numeroDeVagon = numeroDeVagon;
 		this.siguiente = siguiente;
 		
 	}
